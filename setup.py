@@ -6,8 +6,8 @@ with open(os.path.join(os.path.dirname(__file__), "README.md"), encoding="utf-8"
 
 setup(
     name="FileEncrypt",
-    version="0.1.1",
-    description="File encryption using XChaCha20-Poly1305 and Argon2id.",
+    version="0.1.2",
+    description="File compression, encryption and decryption using XChaCha20 cipher and Argon2id (CLI and Python module)",
     long_description=long_description,
     long_description_content_type="text/markdown",
     author="dorit",
