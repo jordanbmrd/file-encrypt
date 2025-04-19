@@ -10,7 +10,12 @@ setup(
     description="File encryption using XChaCha20-Poly1305 and Argon2id.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    author="Your Name",
+    author="dorit",
+    url="https://github.com/jordanbmrd/file-encrypt",
+    project_urls={
+        "Source": "https://github.com/jordanbmrd/file-encrypt",
+        "Tracker": "https://github.com/jordanbmrd/file-encrypt/issues"
+    },
     packages=find_packages(),
     install_requires=[
         "argon2-cffi",
